@@ -1,0 +1,27 @@
+extends layout.pug
+ 
+block variables
+    - let title = 'Accueil';
+block css
+    link(rel="stylesheet", href='style.css')    
+ 
+block content
+        h2 bienvenue sur le blog
+        div.container
+            p Bonjour #{name}
+        div.liste
+            .article
+                h3 Titre 1
+                p Lorem ipsum ...
+                a(href="#") Lire la suite
+                p Publié le jj/mm/aaaa par Auteur
+            .article
+                h3 Titre 2
+                p Lorem ipsum ...
+                a(href="#") Lire la suite
+                p Publié le jj/mm/aaaa par Auteur
+            .article
+                h3 Titre 3
+                p Lorem ipsum ...
+                a(href="#") Lire la suite
+                p Publié le jj/mm/aaaa par Auteur

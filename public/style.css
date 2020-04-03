@@ -1,0 +1,9 @@
+.article{
+    background-color: darkcyan;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+}
